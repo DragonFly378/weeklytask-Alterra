@@ -1,0 +1,48 @@
+.content-section {
+  padding: 1.5rem 0px;
+  margin-bottom: 150px;
+
+  .header-konten {
+    display: flex;
+    justify-content: center;
+    h2 {
+      padding: 20px 0;
+      border-radius: 5px;
+      background-color: #4d36a7;
+      color: white;
+    }
+    h3 {
+      font-style: italic;
+      margin: 20px 0px;
+    }
+    p {
+      font-size: 18px;
+      border-radius: 3px;
+      display: inline-block;
+      padding: 10px 12px;
+      background-color: rgb(253, 173, 242);
+    }
+  }
+
+  .tasks-section {
+    .judul {
+      font-size: 26px;
+    }
+    .nav-pills {
+      .nav-link {
+        font-size: 18px;
+        color: #9191a9;
+        border-radius: 0;
+        background: none;
+
+        &.active {
+          color: #0c0d36;
+          border-bottom: 2px solid #0c0d36;
+        }
+      }
+      .article {
+        text-align: justify;
+      }
+    }
+  }
+}
