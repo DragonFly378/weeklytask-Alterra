@@ -1,5 +1,6 @@
 .content-section {
   padding: 1.5rem 0px;
+  margin-bottom: 80px;
 
   .header-konten {
     display: flex;
@@ -26,6 +27,7 @@
   .tasks-section {
     .judul {
       font-size: 22px;
+      font-weight: bold;
     }
 
     .card {
@@ -37,6 +39,40 @@
 
       &:hover {
         color: #a896fa;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .header-konten {
+    display: flex;
+    justify-content: center;
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 16px !important;
+    }
+  }
+  .tasks-section {
+    .judul {
+      font-size: 20px !important;
+      justify-content: center;
+    }
+
+    .task-week {
+      text-align: center;
+      font-size: 16px;
+
+      .card {
+        &:hover {
+          color: rgb(255, 244, 230);
+          background-color: #a896fa;
+        }
       }
     }
   }

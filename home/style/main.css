@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 .content-section {
   padding: 1.5rem 0px;
+  margin-bottom: 80px;
 }
 
 .content-section .header-konten {
@@ -35,6 +36,7 @@
 
 .content-section .tasks-section .judul {
   font-size: 22px;
+  font-weight: bold;
 }
 
 .content-section .tasks-section .card {
@@ -48,6 +50,40 @@
 
 .content-section .tasks-section .card:hover {
   color: #a896fa;
+}
+
+@media only screen and (max-width: 575px) {
+  .header-konten {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header-konten h2 {
+    font-size: 20px;
+  }
+  .header-konten h3 {
+    font-size: 18px;
+  }
+  .header-konten p {
+    font-size: 16px !important;
+  }
+  .tasks-section .judul {
+    font-size: 20px !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tasks-section .task-week {
+    text-align: center;
+    font-size: 16px;
+  }
+  .tasks-section .task-week .card:hover {
+    color: #fff4e6;
+    background-color: #a896fa;
+  }
 }
 
 body {
