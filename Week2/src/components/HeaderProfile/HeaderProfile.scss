@@ -1,0 +1,61 @@
+@use "../../scss/" as *;
+
+.headersss {
+  .banner {
+    position: relative; //untuk button
+    margin-bottom: 100+50px;
+    max-width: 72vmax;
+    .banner-image {
+      min-height: 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    /* changeButton styling in button.scss */
+  }
+  .profile-zzz {
+    display: flex;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+
+    .foto {
+      // position: absolute;
+      // top: 13%;
+      // left: 3%;
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-right: 22px;
+    }
+    // .foto img {
+    //   width: 100%;
+    //   margin: auto;
+    //   display: block;
+    // }
+
+    .dataProfile {
+      font-family: "Nunito" !important;
+      position: relative;
+      .nickname {
+        position: absolute;
+        bottom: 15%;
+        white-space: nowrap;
+      }
+      .name-email {
+        margin-right: 55px;
+        width: auto;
+        .name {
+          font-style: normal;
+          font-weight: 900;
+          font-size: 24px;
+          color: $second-color;
+        }
+      }
+    }
+  }
+}

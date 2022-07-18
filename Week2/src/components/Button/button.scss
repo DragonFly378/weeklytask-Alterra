@@ -1,0 +1,234 @@
+@use "../../scss/" as *;
+
+/* in Navbar Component */
+.btn-create-new-thread {
+  margin-left: 4rem;
+  padding: 10px 13px;
+
+  border: 1px solid #26b893;
+  border-radius: 20px;
+
+  font-size: 18px;
+  color: #26b893 !important;
+
+  // background: url("../../assets/images/create-thread-icon.png") no-repeat 10px
+  //   center;
+  .iconCreate {
+    margin-right: 10px;
+    background: url("../../assets/images/create-thread-icon.png") no-repeat
+      center !important;
+    background-size: 20px !important;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+  }
+
+  &:hover {
+    background-color: #26b893 !important;
+    color: white !important;
+    border: 1px solid #ffffff;
+    .iconCreate {
+      background: url("../../assets/images/create-thread-hover-icon.png")
+        no-repeat center !important;
+    }
+  }
+}
+
+.btn-nav-masuk {
+  padding: 0.594rem 2.688rem;
+  font-weight: 500;
+  font-size: 18px;
+  color: $main-color;
+  background-color: $txt-color;
+  border: 1px solid #26b893;
+  border-radius: 8px;
+  margin-right: 2.188rem;
+
+  &:hover {
+    background-color: #26b893 !important;
+    color: white !important;
+  }
+}
+
+.btn-nav-daftar {
+  padding: 0.594rem 2.781rem;
+  font-weight: 500;
+  font-size: 18px;
+  color: $txt-color;
+  background-color: $main-color;
+  border: 1px solid #26b893;
+  border-radius: 8px;
+
+  &:hover {
+    background-color: #ffffff !important;
+    color: #26b893 !important;
+  }
+}
+
+/* this button at form post thread */
+.btn-form-kembali {
+  padding: 0.875rem 2.188rem;
+  font-weight: 500;
+  font-size: 18px;
+  color: $main-color;
+  background-color: $txt-color;
+  border: 1px solid #26b893;
+  border-radius: 8px;
+  margin-right: 2.188rem;
+  margin-top: 1.438rem;
+
+  &:hover {
+    background-color: #26b893 !important;
+    color: white !important;
+  }
+}
+
+.btn-form-posting {
+  padding: 0.781rem 2.906rem;
+  font-weight: 500;
+  font-size: 18px;
+  color: $txt-color;
+  background-color: $main-color;
+  border: 1px solid #26b893;
+  border-radius: 8px;
+  margin-top: 1.438rem;
+
+  &:hover {
+    background-color: #ffffff !important;
+    color: #26b893 !important;
+  }
+}
+
+/* this button banner at Profile page */
+.btnChangeBanner {
+  position: absolute;
+  margin-top: 0 !important;
+  top: 5%;
+  right: 5%;
+  z-index: 999;
+
+  font-size: 18px !important;
+  border-radius: 60px !important;
+  padding: 12px 35px !important;
+
+  p {
+    margin: auto;
+  }
+
+  .iconKamera {
+    margin-right: 10px;
+    background: url("../../assets/images/cameraIcon.svg") no-repeat center !important;
+    background-size: 30px !important;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.btnChangeImage {
+  position: absolute;
+  margin-top: 0 !important;
+  top: 75%;
+  right: 5%;
+  z-index: 999;
+
+  font-size: 18px !important;
+  border-radius: 60px !important;
+  padding: 12px 12px !important;
+
+  .iconKamera {
+    background: url("../../assets/images/cameraIcon.svg") no-repeat center !important;
+    background-size: 30px !important;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.btnEditProfile {
+  padding: 12px 20px !important;
+  border: 1px solid #26b893 !important;
+  border-radius: 30px !important;
+  color: $second-color !important;
+}
+.btnIkuti {
+  background-color: $main-color !important;
+  color: white !important;
+  padding: 9px 26px !important;
+}
+
+/* Signup */
+.submit-regist {
+  background-color: $main-color !important;
+  color: #ffffff !important;
+
+  width: 100%;
+  p {
+    margin: auto;
+  }
+}
+
+// Notification
+
+.btn-notif {
+  padding: 0.594rem 0.781rem;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 27px;
+  border: 1px solid #26b893;
+  margin-bottom: 1.25rem;
+  margin-top: 3rem;
+}
+
+.btn-notif-semua {
+  padding: 0.594rem 2.631rem;
+  background: #26b893;
+  color: #ffffff;
+}
+
+.btn-notif-belum-dibaca,
+.btn-notif-baca-semua {
+  margin-left: 1.188rem;
+  color: #26b893;
+  background: #ffffff;
+}
+
+.btn-notif-hapus-semua {
+  float: right;
+  color: #26b893;
+  background: #ffffff;
+}
+
+.btn-follow-terima {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 27px;
+  color: #ffffff;
+  padding: 0.406rem 2.594rem;
+  background: #26b893;
+  border-radius: 8px;
+  border: 1px solid #26b893;
+
+  &:hover {
+    background: #ffffff;
+    color: #26b893;
+  }
+}
+
+.btn-follow-tolak {
+  margin-left: 1.313rem;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 27px;
+  color: #ffffff;
+  padding: 0.406rem 3.063rem;
+  background: #e11d4c;
+  border-radius: 8px;
+  border: 1px solid #e11d4c;
+
+  &:hover {
+    background: #ffffff;
+    color: #e11d4c;
+  }
+}

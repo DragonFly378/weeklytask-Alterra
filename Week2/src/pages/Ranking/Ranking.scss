@@ -1,0 +1,65 @@
+@use "../../scss/" as *;
+
+.row {
+  margin: 0 !important;
+}
+
+.col-3 {
+  padding: 0 !important;
+}
+
+.content{
+  margin-top: 10rem
+
+  
+}
+
+h3{
+    font-weight: 700;
+  }
+
+.ranking{
+    display: flex;
+    flex-direction:column;
+
+    .ranking-item{
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        align-items: center;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #7DD4BE;
+        width: 925px;
+        height: 70px;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+        font-size: larger;
+        font-weight: 500;
+
+        .index{
+          width: 5px;
+        }
+
+        .username{
+          min-width: 70px;
+          max-width: 70px;
+        }
+
+        .image{
+          border-radius: 50%;
+        }
+        .follow{
+            background-color: #7DD4BE;
+            width: 150px;
+            height: 33px;
+            color: white;
+            text-align: center;
+            border-radius: 50px;
+        }
+
+        
+    }
+    
+}
+

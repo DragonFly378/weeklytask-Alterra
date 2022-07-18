@@ -1,0 +1,20 @@
+@use "../../scss/" as *;
+
+th{
+    color: #5F6868 !important;
+    font-weight: normal;
+    text-align: center !important;
+    
+}
+
+td {
+    height: 3rem;
+    text-align: center !important;
+
+    
+}
+
+.text-email{
+    text-align: left !important; 
+    color: #5F6868;
+}

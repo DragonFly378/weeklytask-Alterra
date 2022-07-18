@@ -1,0 +1,53 @@
+@use "../../scss/" as *;
+
+.row {
+  margin: 0 !important;
+}
+
+.col-3 {
+  padding: 0 !important;
+}
+
+.header-profile {
+  margin-top: 10rem;
+  position: relative;
+}
+
+.title-edit-profile {
+  color: #caced8;
+  margin-left: 0.5rem;
+  font-size: larger;
+  font-weight: 700;
+}
+.btn-kembali {
+  color: $main-color;
+  background-color: white;
+  border: solid $main-color;
+  border-width: 2px;
+  border-radius: 5px;
+  margin-right: 1rem;
+  width: 8rem;
+  height: 3rem;
+}
+
+.btn-simpan {
+  color: white;
+  background-color: $main-color;
+  border: solid $main-color;
+  border-width: 2px;
+  border-radius: 5px;
+  width: 8rem;
+  height: 3rem;
+}
+
+.error {
+  color: #fc8181;
+  font-size: 0.75rem;
+  text-align: left;
+  margin-top: 0.25rem;
+}
+
+input.input-error,
+select.input-error {
+  border-color: #fc8181 !important;
+}

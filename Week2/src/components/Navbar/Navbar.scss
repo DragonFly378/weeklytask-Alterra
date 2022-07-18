@@ -1,0 +1,55 @@
+@use "../../scss/" as *;
+
+.customNav {
+  padding: 2.406rem 6.25rem !important;
+  background-color: white;
+
+  .navLogo {
+    width: 100%;
+  }
+
+  @include mobile {
+    .navBrand {
+      width: 70%;
+    }
+  }
+
+  @include tablet {
+    padding: 2.406rem 2rem !important;
+
+    // background-color: aqua;
+
+    .navbar-nav {
+      & > * {
+        margin-bottom: 5px;
+      }
+      .input-search {
+        margin-top: 10px;
+        .input-field {
+          width: 100%;
+          border-radius: 20px !important;
+        }
+      }
+
+      .btn-create-new-thread {
+        margin-left: 0;
+        width: 100%;
+        border-radius: 20px;
+
+        .iconCreate {
+          display: none;
+        }
+
+        p {
+          margin: auto;
+          font-size: 16px;
+        }
+      }
+    }
+    .navbar-user-icon {
+      img {
+        justify-content: center;
+      }
+    }
+  }
+}
